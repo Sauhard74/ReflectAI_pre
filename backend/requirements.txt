@@ -4,3 +4,4 @@ fer
 pyttsx3
 Flask
 flask-cors
+tensorflow
