@@ -35,10 +35,61 @@ Next.js 15.1.2 – Core framework.
 React Three Fiber – 3D rendering library.
 Tailwind CSS – Styling and layout.
 Lucide React – Icon set.
+
 Backend:
-Flask – Web server.
-OpenCV + FER – Computer vision and facial expression recognition.
-MediaPipe – Hand and facial landmark tracking.
+
+Project Setup: Emotion Detection App (FER, Flask, MoviePy, TensorFlow)
+1. Prerequisites:
+Python 3.11 or 3.12
+pyenv or Homebrew (for managing Python versions)
+Git (for cloning repositories)
+Virtual environment (venv)
+2. Setting Up the Project:
+Step 1: Create the Project Directory
+bash
+Copy code
+mkdir ReflectAI
+cd ReflectAI
+Step 2: Set Up a Virtual Environment
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate  # MacOS/Linux
+# .\venv\Scripts\activate  # Windows
+Step 3: Install Required Packages (Add to requirements.txt)
+Create a requirements.txt:
+
+text
+Copy code
+opencv-python-headless
+numpy
+fer
+pyttsx3
+Flask
+flask-cors
+tensorflow
+Install from the file:
+
+bash
+Copy code
+pip install -r requirements.txt
+3. Addressing Common Issues:
+MoviePy Missing or Errors:
+
+pip install moviepy==1.0.3 #If moviepy.editor is missing:
+
+
+pip uninstall moviepy
+pip install moviepy #TensorFlow Installation (if missing):
+
+
+pip install tensorflow
+
+
+pip install tensorflow-macos
+
+
+pip install --upgrade numpy h5py
 
 
 🚀 How It Works
