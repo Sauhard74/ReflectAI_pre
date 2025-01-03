@@ -42,9 +42,10 @@ Project Setup: Emotion Detection App (FER, Flask, MoviePy, TensorFlow)
 1. Prerequisites:
 Python 3.11 or 3.12
 pyenv or Homebrew (for managing Python versions)
+(creating virtual environment)
 Git (for cloning repositories)
 Virtual environment (venv)
-2. Setting Up the Project:
+3. Setting Up the Project:
 Step 1: Create the Project Directory
 bash
 Copy code
